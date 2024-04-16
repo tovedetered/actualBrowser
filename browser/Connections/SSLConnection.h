@@ -14,13 +14,17 @@ public:
                            boost::asio::io_context *io_context,
                            boost::asio::ssl::context *ctx);
     void setSocket() override;
+    ~SSLConnection(){
+        activeSSLSocket->shutdown();
+        delete activeSSLSocket;
+    }
     //I know this hides it, it is by design
     ssl_socket * getSocket(){
-        return activeSocket;
+        return activeSSLSocket;
     }
     std::string request() override;
 private:
-    ssl_socket *activeSocket;
+    ssl_socket *activeSSLSocket;
     boost::asio::ssl::context *ctx;
 };
 

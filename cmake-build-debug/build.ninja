@@ -150,6 +150,13 @@ build CMakeFiles/browser.dir/browser/Connections/SSLConnection.cpp.o: CXX_COMPIL
   OBJECT_DIR = CMakeFiles/browser.dir
   OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser/Connections
 
+build CMakeFiles/browser.dir/browser/Requester.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Requester.cpp || cmake_object_order_depends_target_browser
+  DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
+  DEP_FILE = CMakeFiles/browser.dir/browser/Requester.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/browser.dir
+  OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target browser
@@ -158,7 +165,7 @@ build CMakeFiles/browser.dir/browser/Connections/SSLConnection.cpp.o: CXX_COMPIL
 #############################################
 # Link the executable browser
 
-build browser: CXX_EXECUTABLE_LINKER__browser_Debug CMakeFiles/browser.dir/browser/main.cpp.o CMakeFiles/browser.dir/browser/Connector.cpp.o CMakeFiles/browser.dir/browser/URL/URL.cpp.o CMakeFiles/browser.dir/browser/Connections/Connection.cpp.o CMakeFiles/browser.dir/browser/Connections/SSLConnection.cpp.o | /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0 /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.74.0 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2 /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
+build browser: CXX_EXECUTABLE_LINKER__browser_Debug CMakeFiles/browser.dir/browser/main.cpp.o CMakeFiles/browser.dir/browser/Connector.cpp.o CMakeFiles/browser.dir/browser/URL/URL.cpp.o CMakeFiles/browser.dir/browser/Connections/Connection.cpp.o CMakeFiles/browser.dir/browser/Connections/SSLConnection.cpp.o CMakeFiles/browser.dir/browser/Requester.cpp.o | /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0 /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.74.0 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2 /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0  /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.74.0  /usr/lib/x86_64-linux-gnu/libssl.so  /usr/lib/x86_64-linux-gnu/libcrypto.so  /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2  /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1  -Wl,--as-needed
   OBJECT_DIR = CMakeFiles/browser.dir

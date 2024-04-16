@@ -19,6 +19,8 @@ if(Boost_FOUND)
             browser/Connections/Connection.h
             browser/Connections/SSLConnection.cpp
             browser/Connections/SSLConnection.h
+            browser/Requester.cpp
+            browser/Requester.h
     )
     target_link_libraries(browser
             ${Boost_LIBRARIES}

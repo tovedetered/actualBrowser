@@ -35,7 +35,7 @@ std::string Connection::request() {
         for(auto c : header){
             element.first.push_back(std::tolower(c));
         }
-        std::string value = line.substr(line.find(':'));
+        std::string value = line.substr(line.find(':') + 1);
         value.erase(remove_if(value.begin(), value.end(), isspace), value.end());
         for(auto c : value){
             element.second.push_back(std::tolower(c));
@@ -44,6 +44,10 @@ std::string Connection::request() {
     }
     assert(!activeUrl->getHeaders().contains("transfer-encoding"));
     assert(!activeUrl->getHeaders().contains("content-encoding"));
+
+    if (std::stoi(activeUrl->getStatus().status) >= 300 && std::stoi(activeUrl->getStatus().status) < 400) {
+        return std::string() + "redirect:" + activeUrl->getHeaders()["location"];
+    }
 
     if(response.size() > 0){
         std::ostringstream ss;

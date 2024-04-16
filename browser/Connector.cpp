@@ -8,7 +8,9 @@
 
 Connection* Connector::connect(std::string url) {
     activeURL = new URL(url);
-
+    spdlog::debug("Connecting to "
+                  + activeURL->getHost() + " on "
+                  + activeURL->getScheme());
     if(activeURL->getScheme() == "http"){
         httpConnect();
     }
@@ -21,6 +23,8 @@ Connection* Connector::connect(std::string url) {
                       activeURL->getScheme() + ", not supported");
         exit(1);
     }
+    spdlog::debug("Successfully connected to " +
+                  activeURL->getHost() + " using " + activeURL->getScheme());
     return activeConnection;
 }
 void Connector::httpConnect() {
@@ -63,7 +67,7 @@ void Connector::initHTTPS() {
     if(sslContext != nullptr){
         return;
     }
-
     sslContext = new ssl::context(ssl::context::sslv23);
     sslContext->set_default_verify_paths();
+    spdlog::debug("Successfully Initialized HTTPS");
 }

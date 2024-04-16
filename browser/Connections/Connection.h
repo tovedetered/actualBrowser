@@ -24,7 +24,9 @@ public:
     }
     virtual ~Connection(){
         delete activeUrl;
-        activeSocket->close();
+        if(activeSocket){
+            activeSocket->close();
+        }
         delete activeSocket;
     }
     int setUrl(std::string newURL){
