@@ -122,40 +122,89 @@ build CMakeFiles/browser.dir/browser/main.cpp.o: CXX_COMPILER__browser_unscanned
   OBJECT_DIR = CMakeFiles/browser.dir
   OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser
 
-build CMakeFiles/browser.dir/browser/Connector.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Connector.cpp || cmake_object_order_depends_target_browser
+build CMakeFiles/browser.dir/browser/Networking/Connector.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Networking/Connector.cpp || cmake_object_order_depends_target_browser
   DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
-  DEP_FILE = CMakeFiles/browser.dir/browser/Connector.cpp.o.d
+  DEP_FILE = CMakeFiles/browser.dir/browser/Networking/Connector.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/browser.dir
+  OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser/Networking
+
+build CMakeFiles/browser.dir/browser/Networking/URL/URL.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Networking/URL/URL.cpp || cmake_object_order_depends_target_browser
+  DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
+  DEP_FILE = CMakeFiles/browser.dir/browser/Networking/URL/URL.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/browser.dir
+  OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser/Networking/URL
+
+build CMakeFiles/browser.dir/browser/Networking/Connections/Connection.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Networking/Connections/Connection.cpp || cmake_object_order_depends_target_browser
+  DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
+  DEP_FILE = CMakeFiles/browser.dir/browser/Networking/Connections/Connection.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/browser.dir
+  OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser/Networking/Connections
+
+build CMakeFiles/browser.dir/browser/Networking/Connections/SSLConnection.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Networking/Connections/SSLConnection.cpp || cmake_object_order_depends_target_browser
+  DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
+  DEP_FILE = CMakeFiles/browser.dir/browser/Networking/Connections/SSLConnection.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/browser.dir
+  OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser/Networking/Connections
+
+build CMakeFiles/browser.dir/browser/Networking/Requester.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Networking/Requester.cpp || cmake_object_order_depends_target_browser
+  DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
+  DEP_FILE = CMakeFiles/browser.dir/browser/Networking/Requester.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/browser.dir
+  OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser/Networking
+
+build CMakeFiles/browser.dir/browser/Display/TextBased/BasicConsoleDisplay.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Display/TextBased/BasicConsoleDisplay.cpp || cmake_object_order_depends_target_browser
+  DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
+  DEP_FILE = CMakeFiles/browser.dir/browser/Display/TextBased/BasicConsoleDisplay.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/browser.dir
+  OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser/Display/TextBased
+
+build CMakeFiles/browser.dir/browser/Networking/Networker.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Networking/Networker.cpp || cmake_object_order_depends_target_browser
+  DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
+  DEP_FILE = CMakeFiles/browser.dir/browser/Networking/Networker.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/browser.dir
+  OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser/Networking
+
+build CMakeFiles/browser.dir/browser/Browser.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Browser.cpp || cmake_object_order_depends_target_browser
+  DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
+  DEP_FILE = CMakeFiles/browser.dir/browser/Browser.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/browser.dir
   OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser
 
-build CMakeFiles/browser.dir/browser/URL/URL.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/URL/URL.cpp || cmake_object_order_depends_target_browser
+build CMakeFiles/browser.dir/browser/Display/Display.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Display/Display.cpp || cmake_object_order_depends_target_browser
   DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
-  DEP_FILE = CMakeFiles/browser.dir/browser/URL/URL.cpp.o.d
+  DEP_FILE = CMakeFiles/browser.dir/browser/Display/Display.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/browser.dir
-  OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser/URL
+  OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser/Display
 
-build CMakeFiles/browser.dir/browser/Connections/Connection.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Connections/Connection.cpp || cmake_object_order_depends_target_browser
+build CMakeFiles/browser.dir/browser/BasicConsoleBrowser.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/BasicConsoleBrowser.cpp || cmake_object_order_depends_target_browser
   DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
-  DEP_FILE = CMakeFiles/browser.dir/browser/Connections/Connection.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/browser.dir
-  OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser/Connections
-
-build CMakeFiles/browser.dir/browser/Connections/SSLConnection.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Connections/SSLConnection.cpp || cmake_object_order_depends_target_browser
-  DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
-  DEP_FILE = CMakeFiles/browser.dir/browser/Connections/SSLConnection.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/browser.dir
-  OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser/Connections
-
-build CMakeFiles/browser.dir/browser/Requester.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Requester.cpp || cmake_object_order_depends_target_browser
-  DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
-  DEP_FILE = CMakeFiles/browser.dir/browser/Requester.cpp.o.d
+  DEP_FILE = CMakeFiles/browser.dir/browser/BasicConsoleBrowser.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/browser.dir
   OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser
+
+build CMakeFiles/browser.dir/browser/Display/Graphical/RayGUIDisplay.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Display/Graphical/RayGUIDisplay.cpp || cmake_object_order_depends_target_browser
+  DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
+  DEP_FILE = CMakeFiles/browser.dir/browser/Display/Graphical/RayGUIDisplay.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/browser.dir
+  OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser/Display/Graphical
+
+build CMakeFiles/browser.dir/browser/Graphical/GraphicalBrowser.cpp.o: CXX_COMPILER__browser_unscanned_Debug /home/tobedetered/CLionProjects/actualBrowser/browser/Graphical/GraphicalBrowser.cpp || cmake_object_order_depends_target_browser
+  DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DFMT_LOCALE -DFMT_SHARED -DSPDLOG_COMPILED_LIB -DSPDLOG_FMT_EXTERNAL -DSPDLOG_SHARED_LIB
+  DEP_FILE = CMakeFiles/browser.dir/browser/Graphical/GraphicalBrowser.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/browser.dir
+  OBJECT_FILE_DIR = CMakeFiles/browser.dir/browser/Graphical
 
 
 # =============================================================================
@@ -165,7 +214,7 @@ build CMakeFiles/browser.dir/browser/Requester.cpp.o: CXX_COMPILER__browser_unsc
 #############################################
 # Link the executable browser
 
-build browser: CXX_EXECUTABLE_LINKER__browser_Debug CMakeFiles/browser.dir/browser/main.cpp.o CMakeFiles/browser.dir/browser/Connector.cpp.o CMakeFiles/browser.dir/browser/URL/URL.cpp.o CMakeFiles/browser.dir/browser/Connections/Connection.cpp.o CMakeFiles/browser.dir/browser/Connections/SSLConnection.cpp.o CMakeFiles/browser.dir/browser/Requester.cpp.o | /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0 /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.74.0 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2 /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
+build browser: CXX_EXECUTABLE_LINKER__browser_Debug CMakeFiles/browser.dir/browser/main.cpp.o CMakeFiles/browser.dir/browser/Networking/Connector.cpp.o CMakeFiles/browser.dir/browser/Networking/URL/URL.cpp.o CMakeFiles/browser.dir/browser/Networking/Connections/Connection.cpp.o CMakeFiles/browser.dir/browser/Networking/Connections/SSLConnection.cpp.o CMakeFiles/browser.dir/browser/Networking/Requester.cpp.o CMakeFiles/browser.dir/browser/Display/TextBased/BasicConsoleDisplay.cpp.o CMakeFiles/browser.dir/browser/Networking/Networker.cpp.o CMakeFiles/browser.dir/browser/Browser.cpp.o CMakeFiles/browser.dir/browser/Display/Display.cpp.o CMakeFiles/browser.dir/browser/BasicConsoleBrowser.cpp.o CMakeFiles/browser.dir/browser/Display/Graphical/RayGUIDisplay.cpp.o CMakeFiles/browser.dir/browser/Graphical/GraphicalBrowser.cpp.o | /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0 /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.74.0 /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2 /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1
   FLAGS = -g
   LINK_LIBRARIES = /usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0  /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.74.0  /usr/lib/x86_64-linux-gnu/libssl.so  /usr/lib/x86_64-linux-gnu/libcrypto.so  /usr/lib/x86_64-linux-gnu/libspdlog.so.1.9.2  /usr/lib/x86_64-linux-gnu/libfmt.so.8.1.1  -Wl,--as-needed
   OBJECT_DIR = CMakeFiles/browser.dir
