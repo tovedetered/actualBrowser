@@ -54,6 +54,7 @@ if (Boost_FOUND)
             browser/Display/Graphical/GUIDisplay.h
             browser/Graphical/GraphicalBrowser.cpp
             browser/Graphical/GraphicalBrowser.h
+            browser/Graphical/structs.h
     )
     target_link_libraries(browser
             ${Boost_LIBRARIES}
