@@ -4,10 +4,11 @@
 
 #include "GraphicalBrowser.h"
 void GraphicalBrowser::run() {
-    RayGUIDisplay disp = *dynamic_cast<RayGUIDisplay *>(display);
-    while (!WindowShouldClose()) {
+    GUIDisplay disp = *dynamic_cast<GUIDisplay *>(display);
+    bool end = false;
+    while (!end) {
         //Get Input
-            
+
         //----------------------------------------
 
         //Update
@@ -15,7 +16,9 @@ void GraphicalBrowser::run() {
         //----------------------------------------
 
         //Draw
+        disp.initDrawing();
 
+        disp.endDrawing();
         //----------------------------------------
     }
 }

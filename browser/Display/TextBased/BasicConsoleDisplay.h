@@ -18,8 +18,6 @@ public:
     void display(const std::string &dom) override;
 
 public:
-    void initEntityMap();
-    std::unordered_map<std::string, std::string> entityMap;
 };
 
 

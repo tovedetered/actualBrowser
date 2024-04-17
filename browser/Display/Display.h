@@ -7,12 +7,17 @@
 
 
 #include <string>
+#include <unordered_map>
 
 class Display {
 public:
     virtual void display(const std::string &dom) = 0;
-
     virtual ~Display() = default;
+    std::string lex(const std::string &dom);
+
+protected:
+    void initEntityMap();
+    std::unordered_map<std::string, std::string> entityMap;
 };
 
 

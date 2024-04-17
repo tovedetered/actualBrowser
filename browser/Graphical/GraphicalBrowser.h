@@ -5,12 +5,12 @@
 #ifndef ACTUALBROWSER_GRAPHICALBROWSER_H
 #define ACTUALBROWSER_GRAPHICALBROWSER_H
 #include "../Browser.h"
-#include "../Display/Graphical/RayGUIDisplay.h"
+#include "../Display/Graphical/GUIDisplay.h"
 
 class GraphicalBrowser : Browser {
 public:
     GraphicalBrowser() {
-        display = new RayGUIDisplay;
+        display = new GUIDisplay;
     }
     void run() override;
 

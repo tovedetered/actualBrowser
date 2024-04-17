@@ -3,6 +3,10 @@
 //
 #include "BasicConsoleBrowser.h"
 #include <spdlog/spdlog.h>
+#define RAYGUI_IMPLEMENTATION
+#include "../dependencies/raygui.h"
+#undef RAYGUI_IMPLEMENTATION
+
 int main() {
     spdlog::set_level(spdlog::level::debug);
     BasicConsoleBrowser browser;
